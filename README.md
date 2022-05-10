@@ -27,6 +27,8 @@
 
   Try using import '../css/styles.css' in the code if we get failures again. 
 
+  _"We can use beforeEach() blocks for setup and afterEach() blocks for teardown."_
+
   #### Issues 
 
   Ran into the same issue when working through the bundling CSS prompt. It failes to apply the css page. The remedy was to delete the node_modules and then run npm install and npm run build. I think this is the equivalant of turning it off and turning it back on again. I also changed line 2 of index.js to "import '../css/styles.css';"
